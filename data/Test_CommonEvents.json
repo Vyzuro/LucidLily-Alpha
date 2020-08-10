@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"list":[{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["Are you stupid?"]},{"code":0,"indent":0,"parameters":[]}],"name":"Spoiled Milk Consume","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":111,"indent":0,"parameters":[4,1,6,1]},{"code":230,"indent":1,"parameters":[120]},{"code":221,"indent":1,"parameters":[]},{"code":201,"indent":1,"parameters":[0,7,3,5,0,0]},{"code":222,"indent":1,"parameters":[]},{"code":101,"indent":1,"parameters":["startingActorsKK_face",0,0,2]},{"code":401,"indent":1,"parameters":["OOF. That's was a lotta damage."]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Game Over","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":108,"indent":0,"parameters":["Fully Restores Kishu's HP and MP after every battle."]},{"code":314,"indent":0,"parameters":[0,2]},{"code":0,"indent":0,"parameters":[]}],"name":"Win Battle Utility","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":108,"indent":0,"parameters":["Fully Restores Kishu's HP and MP after every battle."]},{"code":314,"indent":0,"parameters":[0,2]},{"code":0,"indent":0,"parameters":[]}],"name":"Escape Battle Utility","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":108,"indent":0,"parameters":["Fully Restores Kishu's HP and MP when the game loads."]},{"code":408,"indent":0,"parameters":["May as well put this in here just in case."]},{"code":314,"indent":0,"parameters":[0,2]},{"code":0,"indent":0,"parameters":[]}],"name":"Load Game Utility","switchId":1,"trigger":1},
+{"id":6,"list":[{"code":108,"indent":0,"parameters":["Fully Restores Kishu's HP and MP every time the menu"]},{"code":408,"indent":0,"parameters":["is closed."]},{"code":408,"indent":0,"parameters":["This makes sures Kishu's MP is topped off even after using party skills,"]},{"code":408,"indent":0,"parameters":["utility skills, etc."]},{"code":314,"indent":0,"parameters":[0,2]},{"code":0,"indent":0,"parameters":[]}],"name":"Close Menu Utility","switchId":1,"trigger":0},
+{"id":7,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":8,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":9,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":10,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":11,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":12,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":13,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":14,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":15,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":16,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":17,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":18,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":19,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":20,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
