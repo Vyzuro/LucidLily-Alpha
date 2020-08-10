@@ -5413,9 +5413,9 @@ Window_BattleLog.prototype.displayAction = function(subject, item) {
     if (Yanfly.Param.BECFullActText) {
       Yanfly.BEC.Window_BattleLog_displayAction.call(this, subject, item);
     } else {
-      this._actionIcon = this.displayIcon(item);
+      //this._actionIcon = this.displayIcon(item);
       var text = this.displayText(item);
-      this.push('addText', '<SIMPLE>' + text);
+      this.push('addText', text);
       if (item.message2) {
         this.push('addText', '<CENTER>' + item.message2.format(text));
       }
