@@ -8,21 +8,9 @@
 value = user.mp > 0;
 </Custom Requirement>
 
-<Pre-Damage Eval>
-// Check if the target isn't a boss
-if (!target.isStateCategoryAffected('boss')) {
-  // Set the damage to 0
-  //value = 0;
-  // Remove the HP popups
-  //target.result().hpAffected = false;
-}
-</Pre-Damage Eval>
-
 <Post-Damage Eval>
 // Check if the target isn't a boss
 if (!target.isStateCategoryAffected('boss')) {
-  // Remove the HP popups
-  target.result().hpAffected = false;
   // Get the target's death state ID
   var deathStateId = target.deathStateId();
   // Calculate the chance based on the user's current MP%
@@ -36,11 +24,12 @@ if (!target.isStateCategoryAffected('boss')) {
       // If it is, remove the temporary immortal status
       target.removeImmortal();
     }
+	// Set the damage to 0
+	value = 0;
+	// Remove the HP popups
+	target.result().hpAffected = false;
     // Add the death state
     target.addState(deathStateId);
-  } //else {
-    // Display a miss if RNG failed
-    //target.result().missed = true;
   }
 }
 </Post-Damage Eval>
