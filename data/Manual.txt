@@ -1,0 +1,247 @@
+<main entries>Introduction; Attributes; Equipment; Enemy Encounters; Battle Screen; Running Away; Personal Weapon Notes;
+
+# Introduction
+
+#should have all the relevant content I need to know. ~max length
+
+<name> Introduction
+
+<title> Velona's Combat Manual
+
+<text>
+
+I can't be bothered to remember everything about combat. 
+
+This manual should have all 
+the relevant content I need to know.
+
+<end entry>
+
+# Attributes
+
+<name> Attributes
+
+<title> Combat-Relevant Attributes
+
+<text>
+
+Attack Power determines the damage dealt with physical attacks and skills.
+
+Magic Affinity determines the damage dealt with magical attacks and skills.
+
+Defense and Resistance reduce incoming physical and magical damage respectively.
+
+Agility determines the order in which battlers can act.
+
+Luck determines the likelihood of being inflicted with debuffs
+<end entry>
+
+#Equipment
+
+<name>Equipment
+
+<subentries>Stella; Magic Stella; Command Stella; Support Stella; Complete Stella;
+
+<text>
+
+There are 3 main types of equipment. Weapon, Armor, and Accessory.
+
+
+Weapons primarily affect attack power and magic affinity.
+They also determine the properties of your default attack.
+
+Armor primarily affects defense and resistance.
+
+Accessories can modify pretty much whatever and usually have special effects
+that weapons and armor don't have.
+
+<end entry>
+
+#Stella
+
+<name>Stella
+
+<text>
+
+Cosmic Remnants or Stella are refined spheres of omnee, left over from the
+creation of the universe.
+They contain special properties which can be used to further augment one's 
+abilities.
+
+In order to use Stella, they must be slotted into compatible equipment with 
+Stellar Slots.
+
+There are 4 known classifications for Stella.
+
+<end entry>
+
+#Magic Stella
+
+<name>Magic Stella
+
+<text>
+
+Magic - Used to cast spells, including damaging, healing, and status-inflicting 
+spells.
+They can give people the ability to cast spells that they would normally be 
+unable to.
+
+Equipping a magic Stella for a spell that the user already knows has no effect.
+Additionally, equipping multiple of the same Stella will not increase the 
+spell's power.
+
+<end entry>
+
+#Command Stella
+
+<name>Command Stella
+
+<text>
+
+Command - Allows the use of extra commands in battle. 
+These types of Stella synergize with one's existing abilities improving their
+utility and potential effectiveness in battle.
+
+<end entry>
+
+#Support Stella
+
+<name>Support Stella
+
+<text>
+
+Support - Can be linked to other Stella in order to enhance their effects.
+Note, these Stella only work with equipment with linked Stellar Slots. 
+No other linking method is known.
+
+<end entry>
+
+#Complete Stella
+
+<name>Complete Stella
+
+<text>
+
+Complete - These directly modify one's attributes. 
+Utilitarian in nature, these Stella act like additional equipment, 
+albeit without the bulk.
+
+<end entry>
+
+#Enemy Encounters
+
+<name>Enemy Encounters
+
+<text>
+
+Roaming around Tricora, you may encounter wild monsters or even other people who
+want you dead. Why they want you dead doesn't matter much to me, but it happens.
+
+When runnning into a hostile entity, a battle begins whether you like it or not.
+
+You can avoid most enemy encounters by just walking around potential enemies.
+
+<end entry>
+
+#Battle Screen
+
+<name>Battle Screen
+
+<text>
+
+When a battle happens you should be familiar with your options.
+
+Attack - Throw a basic attack based off your current weapon.
+
+Generally, magic weapons such as tomes will permit the use of a magic basic attack, while
+physical weapons like swords will permit the use of a physical basic attack.
+
+Magic - Use a magic-based skill
+
+Special - Any other skill that isn't necessarily magic.
+
+<end entry>
+
+#Running Away
+
+<name>Running Away
+
+<text>
+
+While I do prefer going on the offensive, sometimes running is a better option.
+
+You can do this by pressing X (or whatever the cancel button is set to) 
+to contemplate running among other things.
+
+Those other things include reviewing your condition, 
+or reviewing your current party members if you have any.
+
+<end entry>
+
+#Personal Weapon Notes
+
+<name>Personal Weapon Notes
+
+<title>Personal Weapon Notes
+
+<subentries> My Tome; V-Blaysers V.1;
+
+<text>
+
+In the situation that I do have fight something, I should always have my 
+tome or the V-Blaysers with me.
+
+In general
+
+My tome is better at attacking dealing damage against group of enemies.
+Especially if they have low resistance.
+
+The V-Blaysers are good for exploiting enemies that are weak
+to physical attacks.
+
+
+<end entry>
+
+#My Tome
+
+<name>My Tome
+
+<text>
+
+This is the tome I've been using since I came down from the Light Dimension.
+I'd prefer not spending money on stuff I don't need, so I just keep this 
+one just in case.
+
+It's pretty good at channeling mana and boosts my existing magic affinity 
+quite a bit.
+It's my go to for most monster exterminations.
+
+<end entry>
+
+#V-Blaysers Version 1
+
+<name>V-Blaysers V.1
+
+<title>V-Blaysers Version 1
+
+<text>
+
+I developed these myself after a pack of Terrorbats ambushed me
+during a picnic. 
+I'm usually pretty good at landing magic spells, but it's hard to aim
+at fast moving targets like Terrorbats.
+Frustrated and hungry, I came up with was a completely new weapon I call Blaysers. 
+They are arm guards with carefully crafted mana channels that allow me to 
+continuously stream blades of mana from my wrists. 
+While these do reduce the amount of mana I have for spells, the convenience
+of being able to slash things is a pretty fair trade off.
+
+Although the blades are made of mana, they cut just like steel 
+making them a good choice against enemies that are vulnerable to 
+physical attacks.
+
+<end entry>
+
+
+
+
