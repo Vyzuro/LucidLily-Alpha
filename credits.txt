@@ -22,6 +22,9 @@ First Seed Material
 Icons
 Caz Wolf - PIXEL FANTASY ICONS
 
+RPG Maker Web People
+Zorkon15 - Materia Icon Edit
+
 Music
 Trickster Online
 Hyperdimension Neptunia
@@ -40,3 +43,4 @@ Tools Used
 RPG Maker MV
 Paint.net
 Clip Studio Paint
+Notepad++
