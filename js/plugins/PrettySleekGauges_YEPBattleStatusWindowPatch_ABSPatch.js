@@ -26,7 +26,7 @@ var HeightOffset = 8;
 //
 // End Configuration
 //=============================================================================
-
+var parameters = PluginManager.parameters('PrettySleekGauges');
 var animatedNumbers = (PluginManager.parameters('PrettySleekGauges')['Animated Numbers'] || "true") === "true";
 var animatedGauges = (PluginManager.parameters('PrettySleekGauges')['Animated Gauges'] || "true") === "true";
 var criticalHP = (PluginManager.parameters('PrettySleekGauges')['Critical HP Change'] || "true") === "true";
@@ -48,9 +48,8 @@ Window_BattleStatus.prototype.drawGaugeArea = function(rect, actor) {
 };
 
 Window_BattleStatus.prototype.drawActorHp = function(actor, x, y, width) {
-	width = width || 186;
-	this.drawAnimatedGauge(x, y, width, actor.hpRate(), this.hpGaugeColor1(), this.hpGaugeColor2(), criticalHP);
-	this._gauges[this.makeGaugeKey(x, y)].setExtra(TextManager.hpA, actor.hp, actor.mhp, HeightOffset);
+	this.drawAnimatedGauge(x, y, (width || 186), actor, this.hpGaugeColor1(), this.hpGaugeColor2(), "hp");
+	this._gauges[this.makeGaugeKey(x, y)].setExtra(TextManager.hpA, actor.hp, actor.mhp);
 }
 
 Window_BattleStatus.prototype.drawActorMp = function(actor, x, y, width) {
@@ -67,7 +66,7 @@ Window_BattleStatus.prototype.drawActorTp = function(actor, x, y, width) {
 
 var alias_Special_Gauge_doneUpdating = Special_Gauge.prototype.doneUpdating;
 Special_Gauge.prototype.doneUpdating = function() {
-	return !(SceneManager._scene instanceof Scene_Battle) && alias_Special_Gauge_doneUpdating.call(this);
+	return !(SceneManager._scene instanceof Scene_Battle) && alias_Special_Gauge_doneUpdating.call(this) && (this._type === "hp" ? this._curAbspRate === this._maxAbspRate && this._curAbsp === this._maxAbsp : true);
 };
 
 var alias_Special_Gauge_fontSize = Special_Gauge.prototype.fontSize;
