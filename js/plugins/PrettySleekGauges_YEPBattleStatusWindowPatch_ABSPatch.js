@@ -21,7 +21,7 @@ if (Imported.YEP_BattleStatusWindow && Imported.PrettySleekGauges) {
 //=============================================================================
 // Configuration
 //
-var HeightOffset = 8;
+var HeightOffset = 6;
 
 //
 // End Configuration

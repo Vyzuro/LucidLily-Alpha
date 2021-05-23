@@ -1,6 +1,6 @@
 @font-face {
     font-family: GameFont;
-    src: url("calibri.ttf");
+    src: url("calibri.TTF");
 }
 
 .IIV::-webkit-media-controls-play-button,
