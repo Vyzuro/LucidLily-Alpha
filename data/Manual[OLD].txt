@@ -207,10 +207,14 @@ to physical attacks.
 <name>My Tome
 
 <text>
-This is the tome I've been using since I came down from the Light Dimension.
-I haven't encountered anything strong enough to warrant getting a new one.
 
-I'm broke anyways.
+This is the tome I've been using since I came down from the Light Dimension.
+I'd prefer not spending money on stuff I don't need, so I just keep this 
+one just in case.
+
+It's pretty good at channeling mana and boosts my existing magic affinity 
+quite a bit.
+It's my go to for most monster exterminations.
 
 <end entry>
 
@@ -222,11 +226,15 @@ I'm broke anyways.
 
 <text>
 
-I made these using some spare ergynite conductors that someone was just throwing away.
-These things are a weaponized safety violation. By routing mana through the conductors'
-wiring and focusing it through a prism, I'm able to create a continuous arc of destructive
-energy which is conveniently blade-shaped. They are kinda sketchy to use, but they offer
-considerable agility advantages over conventional armaments. Worth.
+I developed these myself after a pack of Terrorbats ambushed me
+during a picnic. 
+I'm usually pretty good at landing magic spells, but it's hard to aim
+at fast moving targets like Terrorbats.
+Frustrated and hungry, I came up with was a completely new weapon I call Blaysers. 
+They are arm guards with carefully crafted mana channels that allow me to 
+continuously stream blades of mana from my wrists. 
+While these do reduce the amount of mana I have for spells, the convenience
+of being able to slash things is a pretty fair trade off.
 
 Although the blades are made of mana, they cut just like steel 
 making them a good choice against enemies that are vulnerable to 
